@@ -1,0 +1,9 @@
+{
+    "require": {
+        "components/font-awesome": "4.0.3",
+        "components/jquery": "1.9.1"
+    },
+    "config": {
+        "component-dir": "source/components"
+    }
+}

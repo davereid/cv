@@ -1,0 +1,25 @@
+<h2>Relevant Drupal Experience</h2>
+
+{% for job in site.experience %}
+    <h3>
+        {{ job.role }} at {{ job.company.name }}
+
+        {% if job.company.website %}
+            <a href="{{ job.company.website }}">
+                <i class="fa fa-laptop"></i>
+            </a>
+        {% endif %}
+    </h3>
+
+    <p class="experience--dates">
+        {{ job.dates.from|date(site.default_date_format) }} -
+
+        {% if job.dates.to %}
+            {{ job.dates.to|date(site.default_date_format) }}
+        {% else %}
+            Present
+        {% endif %}
+    </p>
+
+    {{ job.details|raw }}
+{% endfor %}
