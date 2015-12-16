@@ -1,4 +1,3 @@
 #!/bin/bash
 
-rm -rf output_dev/
-sculpin generate --server --watch
+sculpin generate --server --watch --clean --no-interaction
