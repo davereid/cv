@@ -1,3 +1,4 @@
 output_*/
 source/components/
+vendor/
 *.min.css.map
