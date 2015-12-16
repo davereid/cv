@@ -37,6 +37,7 @@ experience:
       dates:
           from: 2015-11
           to: ~
+      location: Remote / Manchester, UK
 
     - company:
           name: Microserve
@@ -45,6 +46,7 @@ experience:
       dates:
           from: 2015-07
           to: 2015-11
+      location: Remote / Bristol, UK
       details: >
           <p>Lead Developer on the <a href="http://road.cc">road.cc</a> website rebuild from Drupal 6 to Drupal 7. I was responsible for a large and complex data migration, as well as working on some back-end and front-end development tasks and bug fixes.</p>
 
@@ -55,6 +57,7 @@ experience:
       dates:
           from: 2014-05
           to: 2015-07
+      location: Remote / Portland, OR
       details: >
           <p>Worked on <a href="https://www.drupal.org">Drupal.org</a> and it’s sub-sites, including <a href="https://assoc.drupal.org">assoc.drupal.org</a> (community Board member elections), <a href="https://jobs.drupal.org">Drupal Jobs</a>, <a href="https://latinamerica2015.drupal.org">DrupalCon Latin America</a>, <a href="https://amsterdam2014.drupal.org">DrupalCon Amsterdam</a>, infrastucture.drupal.org, <a href="https://localize.drupal.org">localize.drupal.org</a> (upgrading from Drupal 6 to Drupal 7), and <a href="https://events.drupal.org/barcelona2015">DrupalCon Barcelona</a>.</p>
           <p>Also responsible for supporting the Drupal.org infrastucture and testbots during UK/EU working hours, and promoting the Drupal Association by speaking at user groups and DrupalCamps.</p>
@@ -67,6 +70,7 @@ experience:
       dates:
           from: 2013-04
           to: 2014-05
+      location: Cardiff / London / Worthing, UK
       details: >
           <p>I joined an mid-way through a Intranet project that I saw through to completion, as well as providing training to the client’s internal team, and advising on the next steps for rolling out the new system to all companies within the group.</p>
           <p>I was Lead Developer on a rebuild project for the Institute and Faculty of Actuaries, who were upgrading from Drupal 6. The team was comprised of internal staff across multiple offices, as well as the client’s own development resource. My focus on this project was site building and back-end development, although I also worked on the theme development and server infrastructure.</p>
@@ -79,6 +83,7 @@ experience:
       dates:
           from: 2012-02
           to: 2013-04
+      location: Bristol, UK
 
     - company:
           name: 'Proctor & Stevenson'
@@ -87,6 +92,7 @@ experience:
       dates:
           from: 2011-04
           to: 2012-02
+      location: Bristol, UK
 
     - company:
           name: 'Horse & Country TV'
@@ -95,3 +101,4 @@ experience:
       dates:
           from: 2010-07
           to: 2011-04
+      location: Cwmbran, UK
