@@ -31,12 +31,20 @@ skills:
 
 experience:
     - company:
+          name: CTI Digital
+          website: https://www.ctidigital.com
+      role: Lead Drupal Developer
+      dates:
+          from: 2015-11
+          to: ~
+
+    - company:
           name: Microserve
           website: https://microserve.io
       role: Senior Drupal Developer
       dates:
           from: 2015-07
-          to: ~
+          to: 2015-11
       details: >
           <p>Lead Developer on the <a href="http://road.cc">road.cc</a> website rebuild from Drupal 6 to Drupal 7. I was responsible for a large and complex data migration, as well as working on some back-end and front-end development tasks and bug fixes.</p>
 
