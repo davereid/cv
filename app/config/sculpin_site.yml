@@ -7,6 +7,11 @@ about: >
     <p>I’m an experienced full-stack PHP Developer and System Administrator, specialising in server-side Drupal development and Linux systems engineering. I’m passionate open source contributor and community leader who regularly attends, organises and speaks at user groups and conferences, and I have a proven record of training and mentoring in both a work and community environment.</p>
     <p>I’ve been using Drupal as a hobbyist and freelance Developer since 2007, and as a full-time Developer since 2010.</p>
 
+skill_levels:
+    1: Strong
+    2: Good
+    3: Learning
+
 skills:
     - name: Drupal
       level: 1

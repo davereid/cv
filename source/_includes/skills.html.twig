@@ -1,15 +1,12 @@
 <h2>Skills</h2>
 
-{% set skillLevels = { 1: 'Strong', 2: 'Good', 3: 'Learning' } %}
-{% set numberOfSkills = site.skills|length %}
-
 <div class="row">
     <ul>
-        {% for skills in site.skills|batch(numberOfSkills / 2) %}
+        {% for skills in site.skills|batch(site.skills|length / 2) %}
             <span class="col-md-6">
                 {% for skill in skills %}
                     <li>
-                        {{ skill.name }} - {{ skillLevels[skill.level] }}
+                        {{ skill.name }} - {{ site.skill_levels[skill.level] }}
                     </li>
                 {% endfor %}
             </span>
