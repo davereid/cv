@@ -2,11 +2,11 @@
 
 <div class="row">
     <ul>
-        {% for skills in site.skills|batch(site.skills|length / 2) %}
+        {% for skills in page.skills|batch(page.skills|length / 2) %}
             <span class="col-md-6">
                 {% for skill in skills %}
                     <li>
-                        {{ skill.name }} - {{ site.skill_levels[skill.level] }}
+                        {{ skill.name }} - {{ page.skill_levels[skill.level] }}
                     </li>
                 {% endfor %}
             </span>
